@@ -119,7 +119,6 @@ class Main extends React.Component{
           style={styles.searchInput}
           value={this.state.username}
           onChange={(event) => this.handleChange(event)} />
-
         <TouchableHighlight
           style={styles.button}
           onPress={() => this.handSubmit()}
